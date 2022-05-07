@@ -1,0 +1,7 @@
+def perfectsquares(s,e):
+    for i in range(s,e+1):
+        if (i**0.5)==int(i**(0.5)):
+            print(i,end='  ')
+s=int(input())
+e=int(input())
+perfectsquares(s,e)
